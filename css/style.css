@@ -108,7 +108,7 @@ ul {
   position: absolute;
   left: 0;
   bottom: -1px;
-  content: "";
+  content: '';
   width: 100%;
   height: 4px;
   border-radius: 4px;
@@ -216,7 +216,7 @@ ul {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  letter-spacing: 0.06em; 
+  letter-spacing: 0.06em;
   margin-top: 30px;
 }
 
@@ -381,6 +381,7 @@ ul {
   align-items: baseline;
 }
 .footer-address {
+  flex-grow: 1;
   margin-right: 70px;
 }
 .strong {
@@ -432,45 +433,44 @@ ul {
   font-style: normal;
 }
 /* Разсилка */
-.footer-subscription{
+.footer-subscription {
   margin-left: 93px;
 }
-.subscription{
+.subscription {
   display: flex;
-  }
-.subscription-icon{
+}
+.subscription-icon {
   margin-left: 10px;
 }
-.subscription-input{
-width: 358px;
-height: 50px;
-padding: 15px 16px;
-margin-right: 14px;
-color: var(--primary-white-color);
-background: none;
-border: 1px solid rgba(255, 255, 255, 0.3);
-box-sizing: border-box;
-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-border-radius: 4px;
-transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+.subscription-input {
+  width: 358px;
+  height: 50px;
+  padding: 15px 16px;
+  margin-right: 14px;
+  color: var(--primary-white-color);
+  background: none;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .subscription-input:hover,
-.subscription-input:focus{
+.subscription-input:focus {
   border: 1px solid var(--accent-color);
-
 }
-.subscription-btn{
-display: flex;
-justify-content: center;
-align-items: center;
-margin: 0;
-padding: 10px 27px;
-align-items: center;
-font-size: 16px;  
-line-height: 1.88;
-text-align: center;
-letter-spacing: 0.06em;  
+.subscription-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 10px 27px;
+  align-items: center;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 
 /* Portfolio */
@@ -638,7 +638,6 @@ letter-spacing: 0.06em;
   display: flex;
   flex-direction: column;
   margin-bottom: 10px;
- 
 }
 
 .form-label {
@@ -679,18 +678,18 @@ letter-spacing: 0.06em;
   justify-content: center;
   align-items: center;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius:15px;  
+  border-radius: 15px;
   background-color: var(--primary-white-color);
   cursor: pointer;
   padding: 0;
-  }
-.icon-close{
+}
+.icon-close {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-close:hover,
-.icon-close:focus{
-    fill: currentColor;
-    color: var(--accent-color);     
+.icon-close:focus {
+  fill: currentColor;
+  color: var(--accent-color);
 }
 .form-textarea {
   padding: 12px 16px;
@@ -703,7 +702,7 @@ letter-spacing: 0.06em;
 .form-textarea:hover,
 .form-input:focus,
 .form-textarea:focus {
-  border: 1px solid var(--accent-color);  
+  border: 1px solid var(--accent-color);
 }
 
 .form-textarea::placeholder {
@@ -713,7 +712,7 @@ letter-spacing: 0.06em;
   color: rgba(117, 117, 117, 0.5);
 }
 /* Соглашение */
-.form-checkbox-label {  
+.form-checkbox-label {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -722,7 +721,7 @@ letter-spacing: 0.06em;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
-.icon-checkbox{
+.icon-checkbox {
   position: relative;
   width: 16px;
   height: 15px;
@@ -733,14 +732,14 @@ letter-spacing: 0.06em;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form-checkbox-label:focus .icon-checkbox,
-.form-checkbox-label:hover .icon-checkbox{
+.form-checkbox-label:hover .icon-checkbox {
   border: 2px solid var(--accent-color);
 }
-.checkbox{
-appearance: none;
-position: absolute;
+.checkbox {
+  appearance: none;
+  position: absolute;
 }
-.checkbox-link{
+.checkbox-link {
   margin-left: 5px;
   font-size: 14px;
   line-height: 1.71;
@@ -748,21 +747,18 @@ position: absolute;
   text-decoration-line: underline;
   color: var(--accent-color);
 }
-.checkbox:checked + .icon-checkbox{
+.checkbox:checked + .icon-checkbox {
   display: inline-block;
   border: 2px solid var(--accent-color);
   background-color: var(--accent-color);
   background-image: url(../image/check.svg);
   background-size: contain;
   background-repeat: no-repeat;
-  background-position:center ;
+  background-position: center;
 }
 /* Отправить */
 .Form-btn-submit {
   display: block;
   margin-left: auto;
   margin-right: auto;
-    
-  
 }
-
